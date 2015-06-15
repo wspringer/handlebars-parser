@@ -1,0 +1,25 @@
+{
+  "name": "handlebars-parser",
+  "version": "0.0.1",
+  "description": "Get requested paths from Handlebars templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/runTests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingsquare/handlebars-parser.git"
+  },
+  "author": "Kingsquare BV",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kingsquare/handlebars-parser/issues"
+  },
+  "homepage": "https://github.com/kingsquare/handlebars-parser",
+  "dependencies": {
+    "handlebars": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}

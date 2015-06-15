@@ -13,8 +13,8 @@ module.exports = function () {
 			// E.g. "date" / "debtor.debtorNumber"
 			case 'ID':
 				// ../title?
-				if (node.parts.length === 1 && node.idName.substr(0, 3) === '../') {
-					result.push(node.idName);
+				if (node.parts.length === 1 && node.original && node.original.substr(0, 3) === '../') {
+					result.push(node.original);
 					break;
 				}
 
